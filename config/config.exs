@@ -28,3 +28,8 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+# or other positive integer number of ms
+config :sqlitex, db_timeout: 10_000
+# if most of the database rows are heavy
+config :sqlitex, db_chunk_size: 500
