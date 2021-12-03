@@ -23,3 +23,6 @@ erl_crash.dump
 todo-*.tar
 
 Mnesia.nonode@nohost/
+*.txt
+*.db
+100MB.txt
